@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-T93RMSGG0D"></script> -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-T93RMSGG0D');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure Archive - 都市の本当の姿</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css?v=20260621-1">
+</head>
+
+<body>
+
+    <section class="hero">
+        <video class="hero-video" autoplay muted playsinline preload="auto" id="hero-video">
+            <source src="videos/1.mp4" type="video/mp4" id="video-source">
+        </video>
+        <div class="video-overlay"></div>
+        <div class="language-toggle">
+            <button class="language-button" onclick="location.href='en.html'">English</button>
+        </div>
+        <div class="hero-content">
+            <h1><span class="mobile-break">都市にはまだ</span><br><span class="mobile-break">知らない景色が</span><br
+                    class="mobile-only"><span class="mobile-break">隠れている</span></h1>
+            <p class="subtitle">さあ、見つけてみよう</p>
+            <a href="https://mtur2007.github.io/Diorama_EditMode/public.html" target="_blank" class="cta-button">公開ページへ</a>
+            <a href="https://mtur2007.github.io/Diorama_EditMode/edit.html" target="_blank" class="cta-button">編集ページへ</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="concept-flow" id="concept-flow">
+                <div class="concept-flow-stage">
+                    <div class="concept-flow-panel">
+                        <div class="concept-header">
+                            <div class="concept-frame">
+                                <p class="concept-service-name">Structure Archive</p>
+                                <p class="concept-label">コンセプト</p>
+                                <h2 class="section-title concept-title fade-in">
+                                    <span class="concept-title-word concept-title-word-view">VIEW</span>
+                                    <span class="concept-title-word concept-title-word-amp">&amp;</span>
+                                    <span class="concept-title-word concept-title-word-edit">EDIT</span>
+                                </h2>
+                                <div class="concept-link" aria-hidden="true">
+                                    <span class="concept-link-line"></span>
+                                    <span class="concept-link-node"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mode-flow" id="mode-flow">
+                <div class="mode-flow-stage">
+                    <div class="mode-flow-panel">
+                        <section class="mode-scene mode-scene-view is-active" data-mode-scene="view">
+                            <div class="mode-flow-copy">
+                                <article class="mode-card is-active" data-mode-card="view">
+                                    <h3>
+                                        <span class="mode-title-switch" aria-label="眺める">
+                                            <span class="mode-title-word mode-title-word-en">VIEW</span>
+                                            <span class="mode-title-word mode-title-word-ja">眺める</span>
+                                        </span>
+                                    </h3>
+                                    <p class="mode-view-intro">ただ見るだけではない</p>
+                                    <p class="mode-view-detail"><span class="mode-view-detail-emphasis">地下や構造物の内部といった</span><br>街の知られざる姿を発見する。</p>
+                                </article>
+                            </div>
+                            <div class="mode-flow-media">
+                                <div class="mode-video-card mode-video-card-view is-active" data-mode-video-card="view">
+                                    <video class="mode-video" muted playsinline preload="auto" data-mode-video="view">
+                                        <source src="videos/1.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="mode-video-overlay mode-video-overlay-view"></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="mode-scene mode-scene-edit" data-mode-scene="edit">
+                            <div class="mode-flow-media">
+                                <div class="mode-video-card mode-video-card-edit is-active" data-mode-video-card="edit">
+                                    <video class="mode-video" muted playsinline preload="auto" data-mode-video="edit">
+                                        <source src="videos/1.mp4" type="video/mp4">
+                                    </video>
+                                    <div class="mode-video-overlay mode-video-overlay-edit"></div>
+                                </div>
+                            </div>
+                            <div class="mode-flow-copy">
+                                <article class="mode-card is-active" data-mode-card="edit">
+                                    <h3>
+                                        <span class="mode-title-switch mode-title-switch-edit" aria-label="つくる">
+                                            <span class="mode-title-word mode-title-word-en">EDIT</span>
+                                            <span class="mode-title-word mode-title-word-ja">つくる</span>
+                                        </span>
+                                    </h3>
+                                    <p class="mode-edit-intro">ただつくるだけではない</p>
+                                    <p class="mode-edit-detail"><span class="mode-edit-detail-emphasis">都市の構造を組み替えて</span><br>見えない景色を生み出していく</p>
+                                </article>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="mode-flow-message fade-in">
+                <p class="mode-flow-message-line mode-flow-message-line-primary">普段は感じることのできない、<br>街の姿に触れてみませんか?</p>
+                <p class="mode-flow-message-line mode-flow-message-line-secondary">Structure Archiveには<br>そのための機能が充実しています。</p>
+            </div>
+            <div class="features-showcase">
+                <div class="feature-item feature-item-view fade-in">
+                    <div class="feature-content">
+                        <h3>公開・共有機能</h3>
+                        <p>制作した景色や発見した構造は、そのまま公開して他のユーザーと共有できます。ひとりで蓄積するだけではなく、誰かの視点から生まれた都市の見え方に触れられるのも Structure Archive の魅力です。閲覧と制作が循環することで、街の理解がさらに広がっていきます。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="images/iPhone1.png" alt="操作画面" loading="lazy">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+
+                <div class="feature-item feature-item-edit reverse fade-in">
+                    <div class="feature-content">
+                        <h3>エディター機能</h3>
+                        <p>見つけた構造を眺めるだけで終わらせず、線路や構造物を組み替えながら新しい景色を構想できます。都市の骨格に手を加え、まだ存在しない断面や流れを試しながら、見えない景色を自分の手で立ち上げていくためのエディターです。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="images/iPhone6.png" alt="過去の今日画面" loading="lazy">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+
+                <div class="feature-item feature-item-view fade-in">
+                    <div class="feature-content">
+                        <h3>保存された都市をめぐる</h3>
+                        <p>アーカイブされた景色は、あとから何度でも巡り直せます。公開された都市をたどり、自分の編集と見比べながら、街の構造に対する理解を深めていくことができます。ひとつの発見が次の発見につながるように、Structure Archive は都市との関わりを途切れさせません。
+                        </p>
+                    </div>
+                    <div class="feature-image">
+                        <img src="images/iPhone1.png" alt="オフライン画面" loading="lazy">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="video" class="video-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Structure Archive 公式PV</h2>
+            <div class="video-container fade-in">
+                <iframe src="videos/1.mp4" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section> -->
+<!-- 
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title fade-in">ユーザーレビュー</h2>
+            <div class="review-stats-card fade-in">
+                <div class="rating-score">
+                    <span class="score-number">4.9</span>
+                    <span class="score-divider">/</span>
+                    <span class="score-total">5</span>
+                </div>
+                <div class="stars">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+                <p class="review-info">イメージレビュー 6件</p>
+                <p class="review-note">以下はサービス世界観に合わせた仮レビューです。</p>
+            </div>
+            <div class="review-grid">
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">普段は意識しない高架下や構造の重なりを、ここまで面白く見せてくれるのが新鮮でした。街を見る目が少し変わります。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">ただ眺めるだけではなく、構造を組み替えて景色を試せるのが良いです。都市を素材として触っている感覚があります。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">自分が見つけた景色をアーカイブして残せるので、見返すたびに発見があります。コレクション性がかなり高いです。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">公開された都市を巡るのが楽しいです。ほかの人がどう街を見ているのかが分かって、閲覧だけでも十分面白いです。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">ビジュアルがきれいなだけでなく、コンセプトがはっきりしているのが良いです。見えない景色に触れるという体験がちゃんと伝わります。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-stars">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                    <p class="review-text">エディターで少し手を加えるだけでも街の印象が変わるのが面白いです。構造を見る人にも、つくる人にも刺さると思います。</p>
+                    <p class="review-author">ユーザーレビュー（イメージ）</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="download" class="download">
+        <div class="container">
+            <h2 class="section-title fade-in">見えない都市が、<br class="mobile-only">姿を現す。</h2>
+            <div class="download-image fade-in">
+                <img src="images/iPhone7.png" alt="Structure Archive アプリ画面" loading="lazy">
+                <div class="image-glow"></div>
+            </div>
+            <div class="download-content fade-in">
+                <p>さあ、普段は触れられない街の姿を探しにいきましょう。<br>Structure Archiveで、見えない景色を見つけ、残し、ひらいていく。</p>
+                <a href="" target="_blank" class="cta-button">公開ページへ</a>
+                <a href="" target="_blank" class="cta-button">編集ページへ</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Structure Archive</div>
+                <ul class="footer-links">
+                    <li><a href="mailto:support@mememaker.jp">お問い合わせ</a></li>
+                    <li><a href="terms.html">利用規約</a></li>
+                    <li><a href="privacy.html">プライバシーポリシー</a></li>
+                    <!-- <li><a href="" target="_blank">App Store</a></li>
+                    <li><a href="" target="_blank">Google Play</a></li> -->
+                </ul>
+            </div>
+            <div class="copyright">
+                © 2026 Structure Archive. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=20260621-1"></script>
+</body>
+
+</html>
